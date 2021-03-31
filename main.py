@@ -8,5 +8,5 @@ def on_forever():
         angle = randint(0, 360)
         bug.turn(Direction.RIGHT, angle)
         bug.move(1)
-        basic.pause(500)
+        basic.pause(100)
 basic.forever(on_forever)
